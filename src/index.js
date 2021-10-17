@@ -3,6 +3,7 @@ and load the entire application. This file imports different code from different
 import React from "react"; //main library for react
 import ReactDOM from "react-dom"; //used to control the document object model(structure of how web pages are put together)
 import App from "./App"; //when importing modules you don't need to add .js extention
+import "./custom.scss";
 
 ReactDOM.render(
   <React.StrictMode>
